@@ -10,7 +10,6 @@
 #import "MBProgressHUD+LM.h"
 @implementation LMHttpTool
 
-
 + (instancetype)shared{
     
     static LMHttpTool *tool;
@@ -19,7 +18,6 @@
     dispatch_once(&onceToken, ^{
         
         tool = [[LMHttpTool alloc] init];
-        tool.baseUrl = kBase_IP;
         tool.timeOutInterval = 30;
         
     });
@@ -27,26 +25,6 @@
     return tool;
     
 }
-
-- (NSString *)getUUID{
-   
-    NSString *uuidStr = [SPIMyUUID load:@"KEY_DEVICE_UUID"];
-    
-    if ([uuidStr isEqualToString:@""] || !uuidStr) {
-        
-        CFUUIDRef uuidRef = CFUUIDCreate(kCFAllocatorDefault);
-        
-        uuidStr = (NSString *)CFBridgingRelease(CFUUIDCreateString(kCFAllocatorDefault, uuidRef));
-        
-        [SPIMyUUID save:@"KEY_DEVICE_UUID" data:uuidStr];
-    }
-    
-    return uuidStr;
-}
-
-
-static BOOL isExistenceNetwork = YES;
-
 
 + (LMNetworkStatus)startNetworkMonitoring{
     
@@ -108,7 +86,7 @@ static BOOL isExistenceNetwork = YES;
     
     //网络检查
     if ([LMHttpTool startNetworkMonitoring] == StatusNotReachable) {
-        [MBProgressHUD showAutoMessage:@"网络连接失败,请检查网络" ToView:nil];
+        [MBProgressHUD LM_failMessage:@"网络连接失败,请检查网络" andView:nil];
         return;
     }
 
@@ -139,8 +117,7 @@ static BOOL isExistenceNetwork = YES;
     
     //网络检查
     if ([LMHttpTool startNetworkMonitoring] == StatusNotReachable) {
-        [MBProgressHUD showAutoMessage:@"网络连接失败,请检查网络" ToView:nil];
-        return;
+        [MBProgressHUD LM_failMessage:@"网络连接失败,请检查网络" andView:nil];        return;
     }
     
     URLString = [NSString stringWithFormat:@"%@%@",self.baseUrl,URLString];
@@ -173,8 +150,7 @@ static BOOL isExistenceNetwork = YES;
     
     //网络检查
     if ([LMHttpTool startNetworkMonitoring] == StatusNotReachable) {
-        [MBProgressHUD showAutoMessage:@"网络连接失败,请检查网络" ToView:nil];
-        return;
+        [MBProgressHUD LM_failMessage:@"网络连接失败,请检查网络" andView:nil];        return;
     }
     
     restPath = [NSString stringWithFormat:@"%@%@",self.baseUrl,restPath];
@@ -258,8 +234,7 @@ static BOOL isExistenceNetwork = YES;
     
     //网络检查
     if ([LMHttpTool startNetworkMonitoring] == StatusNotReachable) {
-        [MBProgressHUD showAutoMessage:@"网络连接失败,请检查网络" ToView:nil];
-        return;
+        [MBProgressHUD LM_failMessage:@"网络连接失败,请检查网络" andView:nil];        return;
     }
     
     restPath = [NSString stringWithFormat:@"%@%@",self.baseUrl,restPath];
@@ -352,8 +327,7 @@ static BOOL isExistenceNetwork = YES;
     
     //网络检查
     if ([LMHttpTool startNetworkMonitoring] == StatusNotReachable) {
-        [MBProgressHUD showAutoMessage:@"网络连接失败,请检查网络" ToView:nil];
-        return;
+        [MBProgressHUD LM_failMessage:@"网络连接失败,请检查网络" andView:nil];        return;
     }
     
     urlString = [NSString stringWithFormat:@"%@%@",self.baseUrl,urlString];

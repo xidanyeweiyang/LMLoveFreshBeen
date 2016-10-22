@@ -32,14 +32,14 @@
 #define getCurentTime [NSString stringWithFormat:@"%ld", (long)[[NSDate date] timeIntervalSince1970]]
 
 
-#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/256.0f green:g/256.0f blue:b/256.0f alpha:a]
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)
-
-#define LMGlobalNAVColor RGB(68,192,250) //导航栏背景色
-#define LMGlobalBackGrayColor RGB(240,240,240) //背景灰色
-#define LMGlobalWhiteColor RGB(255,255,255) //白色
-#define lMGlobalLightGrayColor  [UIColor lightGrayColor] //亮灰色
-#define lMGlobalGrayColor  [UIColor grayColor]  //灰色
+#define LMBackgroudColor RGB(239,239,239) //常用的背景色
+#define LMNavBarColor RGB(253,212,49) //导航栏背景色
+#define LMBackGrayColor RGB(240,240,240) //背景灰色
+#define LMWhiteColor RGB(255,255,255) //白色
+#define LMLightGrayColor  [UIColor lightGrayColor] //亮灰色
+#define LMGrayColor  [UIColor grayColor]  //灰色
 
 #define kWeakSelf(object)   __weak typeof(object) weakSelf = object;
 

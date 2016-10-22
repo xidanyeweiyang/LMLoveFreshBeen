@@ -7,19 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0ADBE71DB9F39400CBEAC6 /* LMHomeCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0ADBE61DB9F39400CBEAC6 /* LMHomeCollectionHeaderView.m */; };
+		8A0ADBEA1DBA043200CBEAC6 /* LMAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0ADBE91DBA043200CBEAC6 /* LMAnimationViewController.m */; };
+		8A124D5D1D9B54E600C2925A /* UILabel+LM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A124D5C1D9B54E600C2925A /* UILabel+LM.m */; };
+		8A124D611D9B5AEC00C2925A /* LMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A124D601D9B5AEC00C2925A /* LMNavigationController.m */; };
+		8A1523A31D94213000247AC4 /* UIBarButtonItem+LM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1523A21D94213000247AC4 /* UIBarButtonItem+LM.m */; };
+		8A1EFE341DB8740D00919B2B /* LMHomeProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1EFE331DB8740D00919B2B /* LMHomeProductTableViewCell.m */; };
+		8A1EFE371DB89CA300919B2B /* LMLMHomeProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1EFE361DB89CA300919B2B /* LMLMHomeProductCollectionViewCell.m */; };
+		8A1EFE3D1DB8CD8000919B2B /* LMHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1EFE3C1DB8CD8000919B2B /* LMHomeHeaderView.m */; };
+		8A1EFE401DB8CE7800919B2B /* LMHomeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1EFE3F1DB8CE7800919B2B /* LMHomeFooterView.m */; };
+		8A62574B1D97CB2E00C7ECCF /* LMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A62574A1D97CB2E00C7ECCF /* LMTabBarViewController.m */; };
+		8A6257741D97D93D00C7ECCF /* UIImage+LM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6257731D97D93D00C7ECCF /* UIImage+LM.m */; };
 		8AB562701D86D19A0073E94E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5626F1D86D19A0073E94E /* main.m */; };
 		8AB562731D86D19B0073E94E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB562721D86D19B0073E94E /* AppDelegate.m */; };
 		8AB5627B1D86D19B0073E94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5627A1D86D19B0073E94E /* Assets.xcassets */; };
 		8AB5627E1D86D19B0073E94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB5627C1D86D19B0073E94E /* LaunchScreen.storyboard */; };
-		8AB562AE1D86D8B70073E94E /* MBProgressHUD+LM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5629A1D86D8B70073E94E /* MBProgressHUD+LM.m */; };
 		8AB562AF1D86D8B70073E94E /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5629C1D86D8B70073E94E /* NSString+Base64.m */; };
 		8AB562B01D86D8B70073E94E /* NSString+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB5629E1D86D8B70073E94E /* NSString+log.m */; };
 		8AB562B11D86D8B70073E94E /* UIView+LMUIViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB562A11D86D8B70073E94E /* UIView+LMUIViewExtension.m */; };
 		8AB562B21D86D8B70073E94E /* LMHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB562A41D86D8B70073E94E /* LMHttpTool.m */; };
 		8AB562B31D86D8B70073E94E /* LMPostParaments.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB562A61D86D8B70073E94E /* LMPostParaments.m */; };
+		8AB562B91D86E97B0073E94E /* UIColor+LM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB562B81D86E97B0073E94E /* UIColor+LM.m */; };
+		8AD170E51D97C2000019F0C9 /* MBProgressHUD+LM.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD170E31D97C2000019F0C9 /* MBProgressHUD+LM.m */; };
+		8AD170E61D97C2000019F0C9 /* MBProgressHUD+LM.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD170E41D97C2000019F0C9 /* MBProgressHUD+LM.xcassets */; };
+		8AD1B1441DB46A9000292626 /* LMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1B1431DB46A9000292626 /* LMBaseViewController.m */; };
+		8AD1B1471DB46ABD00292626 /* LMHoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1B1461DB46ABD00292626 /* LMHoneViewController.m */; };
+		8AD1B14A1DB46AF700292626 /* LMSuperMarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1B1491DB46AF700292626 /* LMSuperMarketViewController.m */; };
+		8AD1B14D1DB46B0600292626 /* LMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1B14C1DB46B0600292626 /* LMMineViewController.m */; };
+		8AD1B1501DB46B1A00292626 /* LMShopCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1B14F1DB46B1A00292626 /* LMShopCartViewController.m */; };
+		8AD1B1571DB47DB700292626 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1B1541DB47DB700292626 /* UITabBar+badge.m */; };
+		8AD1B1581DB47DB700292626 /* LMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1B1561DB47DB700292626 /* LMTabBar.m */; };
+		8AD1B15F1DB4A7F800292626 /* LMPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD1B15E1DB4A7F800292626 /* LMPageScrollView.m */; };
+		BFFA3E747CDC4ED432FEED70 /* libPods-LMLoveFreshBeen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3269C72FB8A46271068328AE /* libPods-LMLoveFreshBeen.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3269C72FB8A46271068328AE /* libPods-LMLoveFreshBeen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMLoveFreshBeen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		395107BD64AA5621AED04AE9 /* Pods-LMLoveFreshBeen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMLoveFreshBeen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMLoveFreshBeen/Pods-LMLoveFreshBeen.debug.xcconfig"; sourceTree = "<group>"; };
+		477FA94CF3E9CDF361A095DD /* Pods-LMLoveFreshBeen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMLoveFreshBeen.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMLoveFreshBeen/Pods-LMLoveFreshBeen.release.xcconfig"; sourceTree = "<group>"; };
+		8A0ADBE51DB9F39400CBEAC6 /* LMHomeCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHomeCollectionHeaderView.h; sourceTree = "<group>"; };
+		8A0ADBE61DB9F39400CBEAC6 /* LMHomeCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHomeCollectionHeaderView.m; sourceTree = "<group>"; };
+		8A0ADBE81DBA043200CBEAC6 /* LMAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMAnimationViewController.h; sourceTree = "<group>"; };
+		8A0ADBE91DBA043200CBEAC6 /* LMAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAnimationViewController.m; sourceTree = "<group>"; };
+		8A124D5B1D9B54E600C2925A /* UILabel+LM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LM.h"; sourceTree = "<group>"; };
+		8A124D5C1D9B54E600C2925A /* UILabel+LM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LM.m"; sourceTree = "<group>"; };
+		8A124D5E1D9B59DA00C2925A /* LMExtensionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMExtensionHeader.h; sourceTree = "<group>"; };
+		8A124D5F1D9B5AEC00C2925A /* LMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNavigationController.h; sourceTree = "<group>"; };
+		8A124D601D9B5AEC00C2925A /* LMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNavigationController.m; sourceTree = "<group>"; };
+		8A1523A11D94213000247AC4 /* UIBarButtonItem+LM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LM.h"; sourceTree = "<group>"; };
+		8A1523A21D94213000247AC4 /* UIBarButtonItem+LM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LM.m"; sourceTree = "<group>"; };
+		8A1EFE321DB8740D00919B2B /* LMHomeProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHomeProductTableViewCell.h; sourceTree = "<group>"; };
+		8A1EFE331DB8740D00919B2B /* LMHomeProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHomeProductTableViewCell.m; sourceTree = "<group>"; };
+		8A1EFE351DB89CA300919B2B /* LMLMHomeProductCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLMHomeProductCollectionViewCell.h; sourceTree = "<group>"; };
+		8A1EFE361DB89CA300919B2B /* LMLMHomeProductCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLMHomeProductCollectionViewCell.m; sourceTree = "<group>"; };
+		8A1EFE3B1DB8CD8000919B2B /* LMHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHomeHeaderView.h; sourceTree = "<group>"; };
+		8A1EFE3C1DB8CD8000919B2B /* LMHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHomeHeaderView.m; sourceTree = "<group>"; };
+		8A1EFE3E1DB8CE7800919B2B /* LMHomeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHomeFooterView.h; sourceTree = "<group>"; };
+		8A1EFE3F1DB8CE7800919B2B /* LMHomeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHomeFooterView.m; sourceTree = "<group>"; };
+		8A6257491D97CB2E00C7ECCF /* LMTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMTabBarViewController.h; sourceTree = "<group>"; };
+		8A62574A1D97CB2E00C7ECCF /* LMTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMTabBarViewController.m; sourceTree = "<group>"; };
+		8A6257721D97D93D00C7ECCF /* UIImage+LM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LM.h"; sourceTree = "<group>"; };
+		8A6257731D97D93D00C7ECCF /* UIImage+LM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LM.m"; sourceTree = "<group>"; };
 		8AB5626B1D86D19A0073E94E /* LMLoveFreshBeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMLoveFreshBeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB5626F1D86D19A0073E94E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AB562711D86D19A0073E94E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +75,6 @@
 		8AB5627A1D86D19B0073E94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		8AB5627D1D86D19B0073E94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AB5627F1D86D19B0073E94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
-		8AB562991D86D8B70073E94E /* MBProgressHUD+LM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LM.h"; sourceTree = "<group>"; };
-		8AB5629A1D86D8B70073E94E /* MBProgressHUD+LM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LM.m"; sourceTree = "<group>"; };
 		8AB5629B1D86D8B70073E94E /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
 		8AB5629C1D86D8B70073E94E /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		8AB5629D1D86D8B70073E94E /* NSString+log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+log.h"; sourceTree = "<group>"; };
@@ -46,6 +92,30 @@
 		8AB562AB1D86D8B70073E94E /* NotificationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacros.h; sourceTree = "<group>"; };
 		8AB562AC1D86D8B70073E94E /* PathMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathMacros.h; sourceTree = "<group>"; };
 		8AB562AD1D86D8B70073E94E /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		8AB562B71D86E97B0073E94E /* UIColor+LM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LM.h"; sourceTree = "<group>"; };
+		8AB562B81D86E97B0073E94E /* UIColor+LM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LM.m"; sourceTree = "<group>"; };
+		8AD170E21D97C2000019F0C9 /* MBProgressHUD+LM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LM.h"; sourceTree = "<group>"; };
+		8AD170E31D97C2000019F0C9 /* MBProgressHUD+LM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LM.m"; sourceTree = "<group>"; };
+		8AD170E41D97C2000019F0C9 /* MBProgressHUD+LM.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "MBProgressHUD+LM.xcassets"; sourceTree = "<group>"; };
+		8AD170E71D97C2420019F0C9 /* LoveFreshBeen.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoveFreshBeen.pch; sourceTree = "<group>"; };
+		8AD1B1421DB46A9000292626 /* LMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMBaseViewController.h; sourceTree = "<group>"; };
+		8AD1B1431DB46A9000292626 /* LMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMBaseViewController.m; sourceTree = "<group>"; };
+		8AD1B1451DB46ABD00292626 /* LMHoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMHoneViewController.h; sourceTree = "<group>"; };
+		8AD1B1461DB46ABD00292626 /* LMHoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMHoneViewController.m; sourceTree = "<group>"; };
+		8AD1B1481DB46AF700292626 /* LMSuperMarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSuperMarketViewController.h; sourceTree = "<group>"; };
+		8AD1B1491DB46AF700292626 /* LMSuperMarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSuperMarketViewController.m; sourceTree = "<group>"; };
+		8AD1B14B1DB46B0600292626 /* LMMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMMineViewController.h; sourceTree = "<group>"; };
+		8AD1B14C1DB46B0600292626 /* LMMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMMineViewController.m; sourceTree = "<group>"; };
+		8AD1B14E1DB46B1A00292626 /* LMShopCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMShopCartViewController.h; sourceTree = "<group>"; };
+		8AD1B14F1DB46B1A00292626 /* LMShopCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMShopCartViewController.m; sourceTree = "<group>"; };
+		8AD1B1511DB46B5800292626 /* LMViewControllerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMViewControllerHeader.h; sourceTree = "<group>"; };
+		8AD1B1521DB46B8000292626 /* LMModelHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMModelHeader.h; sourceTree = "<group>"; };
+		8AD1B1531DB47DB700292626 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
+		8AD1B1541DB47DB700292626 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
+		8AD1B1551DB47DB700292626 /* LMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMTabBar.h; sourceTree = "<group>"; };
+		8AD1B1561DB47DB700292626 /* LMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMTabBar.m; sourceTree = "<group>"; };
+		8AD1B15D1DB4A7F800292626 /* LMPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPageScrollView.h; sourceTree = "<group>"; };
+		8AD1B15E1DB4A7F800292626 /* LMPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPageScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +123,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFA3E747CDC4ED432FEED70 /* libPods-LMLoveFreshBeen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BAD139C6DF4F10F1015AFE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395107BD64AA5621AED04AE9 /* Pods-LMLoveFreshBeen.debug.xcconfig */,
+				477FA94CF3E9CDF361A095DD /* Pods-LMLoveFreshBeen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65804F62A7DA222F579192DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3269C72FB8A46271068328AE /* libPods-LMLoveFreshBeen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8AB562621D86D19A0073E94E = {
 			isa = PBXGroup;
 			children = (
 				8AB5626D1D86D19A0073E94E /* LMLoveFreshBeen */,
 				8AB5626C1D86D19A0073E94E /* Products */,
+				5BAD139C6DF4F10F1015AFE4 /* Pods */,
+				65804F62A7DA222F579192DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				8AB5626F1D86D19A0073E94E /* main.m */,
+				8AD170E71D97C2420019F0C9 /* LoveFreshBeen.pch */,
+				8AD1B1511DB46B5800292626 /* LMViewControllerHeader.h */,
+				8AD1B1521DB46B8000292626 /* LMModelHeader.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +215,7 @@
 		8AB562871D86D8B70073E94E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8AD1B1591DB4A6C600292626 /* Views */,
 				8AB562881D86D8B70073E94E /* ViewController */,
 			);
 			path = Home;
@@ -130,6 +224,8 @@
 		8AB562881D86D8B70073E94E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8AD1B1451DB46ABD00292626 /* LMHoneViewController.h */,
+				8AD1B1461DB46ABD00292626 /* LMHoneViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -146,6 +242,18 @@
 		8AB5628A1D86D8B70073E94E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8AD1B1531DB47DB700292626 /* UITabBar+badge.h */,
+				8AD1B1541DB47DB700292626 /* UITabBar+badge.m */,
+				8AD1B1551DB47DB700292626 /* LMTabBar.h */,
+				8AD1B1561DB47DB700292626 /* LMTabBar.m */,
+				8A124D5F1D9B5AEC00C2925A /* LMNavigationController.h */,
+				8A124D601D9B5AEC00C2925A /* LMNavigationController.m */,
+				8A6257491D97CB2E00C7ECCF /* LMTabBarViewController.h */,
+				8A62574A1D97CB2E00C7ECCF /* LMTabBarViewController.m */,
+				8AD1B1421DB46A9000292626 /* LMBaseViewController.h */,
+				8AD1B1431DB46A9000292626 /* LMBaseViewController.m */,
+				8A0ADBE81DBA043200CBEAC6 /* LMAnimationViewController.h */,
+				8A0ADBE91DBA043200CBEAC6 /* LMAnimationViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -169,6 +277,8 @@
 		8AB5628D1D86D8B70073E94E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8AD1B14B1DB46B0600292626 /* LMMineViewController.h */,
+				8AD1B14C1DB46B0600292626 /* LMMineViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -209,6 +319,8 @@
 		8AB562921D86D8B70073E94E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8AD1B14E1DB46B1A00292626 /* LMShopCartViewController.h */,
+				8AD1B14F1DB46B1A00292626 /* LMShopCartViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -232,6 +344,8 @@
 		8AB562951D86D8B70073E94E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8AD1B1481DB46AF700292626 /* LMSuperMarketViewController.h */,
+				8AD1B1491DB46AF700292626 /* LMSuperMarketViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -256,8 +370,8 @@
 		8AB562981D86D8B70073E94E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8AB562991D86D8B70073E94E /* MBProgressHUD+LM.h */,
-				8AB5629A1D86D8B70073E94E /* MBProgressHUD+LM.m */,
+				8A124D5E1D9B59DA00C2925A /* LMExtensionHeader.h */,
+				8AD170E11D97C2000019F0C9 /* LM+MBProgress */,
 				8AB5629B1D86D8B70073E94E /* NSString+Base64.h */,
 				8AB5629C1D86D8B70073E94E /* NSString+Base64.m */,
 				8AB5629D1D86D8B70073E94E /* NSString+log.h */,
@@ -265,6 +379,14 @@
 				8AB5629F1D86D8B70073E94E /* Singleton.h */,
 				8AB562A01D86D8B70073E94E /* UIView+LMUIViewExtension.h */,
 				8AB562A11D86D8B70073E94E /* UIView+LMUIViewExtension.m */,
+				8AB562B71D86E97B0073E94E /* UIColor+LM.h */,
+				8AB562B81D86E97B0073E94E /* UIColor+LM.m */,
+				8A1523A11D94213000247AC4 /* UIBarButtonItem+LM.h */,
+				8A1523A21D94213000247AC4 /* UIBarButtonItem+LM.m */,
+				8A6257721D97D93D00C7ECCF /* UIImage+LM.h */,
+				8A6257731D97D93D00C7ECCF /* UIImage+LM.m */,
+				8A124D5B1D9B54E600C2925A /* UILabel+LM.h */,
+				8A124D5C1D9B54E600C2925A /* UILabel+LM.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -283,9 +405,9 @@
 		8AB562A71D86D8B70073E94E /* Macros(宏) */ = {
 			isa = PBXGroup;
 			children = (
+				8AB562AA1D86D8B70073E94E /* Macros.h */,
 				8AB562A81D86D8B70073E94E /* APIStringMacros.h */,
 				8AB562A91D86D8B70073E94E /* DimensMacros.h */,
-				8AB562AA1D86D8B70073E94E /* Macros.h */,
 				8AB562AB1D86D8B70073E94E /* NotificationMacros.h */,
 				8AB562AC1D86D8B70073E94E /* PathMacros.h */,
 				8AB562AD1D86D8B70073E94E /* UtilsMacros.h */,
@@ -309,6 +431,35 @@
 			path = Other/Vender;
 			sourceTree = "<group>";
 		};
+		8AD170E11D97C2000019F0C9 /* LM+MBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				8AD170E21D97C2000019F0C9 /* MBProgressHUD+LM.h */,
+				8AD170E31D97C2000019F0C9 /* MBProgressHUD+LM.m */,
+				8AD170E41D97C2000019F0C9 /* MBProgressHUD+LM.xcassets */,
+			);
+			path = "LM+MBProgress";
+			sourceTree = "<group>";
+		};
+		8AD1B1591DB4A6C600292626 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A0ADBE51DB9F39400CBEAC6 /* LMHomeCollectionHeaderView.h */,
+				8A0ADBE61DB9F39400CBEAC6 /* LMHomeCollectionHeaderView.m */,
+				8AD1B15D1DB4A7F800292626 /* LMPageScrollView.h */,
+				8AD1B15E1DB4A7F800292626 /* LMPageScrollView.m */,
+				8A1EFE321DB8740D00919B2B /* LMHomeProductTableViewCell.h */,
+				8A1EFE331DB8740D00919B2B /* LMHomeProductTableViewCell.m */,
+				8A1EFE351DB89CA300919B2B /* LMLMHomeProductCollectionViewCell.h */,
+				8A1EFE361DB89CA300919B2B /* LMLMHomeProductCollectionViewCell.m */,
+				8A1EFE3B1DB8CD8000919B2B /* LMHomeHeaderView.h */,
+				8A1EFE3C1DB8CD8000919B2B /* LMHomeHeaderView.m */,
+				8A1EFE3E1DB8CE7800919B2B /* LMHomeFooterView.h */,
+				8A1EFE3F1DB8CE7800919B2B /* LMHomeFooterView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -316,9 +467,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AB562821D86D19B0073E94E /* Build configuration list for PBXNativeTarget "LMLoveFreshBeen" */;
 			buildPhases = (
+				CBB2DDEB8C97F114702ADDF8 /* [CP] Check Pods Manifest.lock */,
 				8AB562671D86D19A0073E94E /* Sources */,
 				8AB562681D86D19A0073E94E /* Frameworks */,
 				8AB562691D86D19A0073E94E /* Resources */,
+				998D9C4414D65C04DABA63B2 /* [CP] Embed Pods Frameworks */,
+				C454B8CC5ED78FAFC5926762 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,6 +489,7 @@
 		8AB562631D86D19A0073E94E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LM;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "刘明";
 				TargetAttributes = {
@@ -367,6 +522,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD170E61D97C2000019F0C9 /* MBProgressHUD+LM.xcassets in Resources */,
 				8AB5627E1D86D19B0073E94E /* LaunchScreen.storyboard in Resources */,
 				8AB5627B1D86D19B0073E94E /* Assets.xcassets in Resources */,
 			);
@@ -374,16 +530,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		998D9C4414D65C04DABA63B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMLoveFreshBeen/Pods-LMLoveFreshBeen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C454B8CC5ED78FAFC5926762 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMLoveFreshBeen/Pods-LMLoveFreshBeen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB2DDEB8C97F114702ADDF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AB562671D86D19A0073E94E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A124D5D1D9B54E600C2925A /* UILabel+LM.m in Sources */,
 				8AB562B11D86D8B70073E94E /* UIView+LMUIViewExtension.m in Sources */,
+				8AD1B1501DB46B1A00292626 /* LMShopCartViewController.m in Sources */,
+				8A1523A31D94213000247AC4 /* UIBarButtonItem+LM.m in Sources */,
+				8AD1B15F1DB4A7F800292626 /* LMPageScrollView.m in Sources */,
+				8A1EFE341DB8740D00919B2B /* LMHomeProductTableViewCell.m in Sources */,
+				8AD1B14A1DB46AF700292626 /* LMSuperMarketViewController.m in Sources */,
+				8A1EFE371DB89CA300919B2B /* LMLMHomeProductCollectionViewCell.m in Sources */,
+				8AD1B1471DB46ABD00292626 /* LMHoneViewController.m in Sources */,
 				8AB562B31D86D8B70073E94E /* LMPostParaments.m in Sources */,
 				8AB562731D86D19B0073E94E /* AppDelegate.m in Sources */,
-				8AB562AE1D86D8B70073E94E /* MBProgressHUD+LM.m in Sources */,
 				8AB562701D86D19A0073E94E /* main.m in Sources */,
+				8AD1B14D1DB46B0600292626 /* LMMineViewController.m in Sources */,
+				8A0ADBE71DB9F39400CBEAC6 /* LMHomeCollectionHeaderView.m in Sources */,
+				8A0ADBEA1DBA043200CBEAC6 /* LMAnimationViewController.m in Sources */,
+				8AB562B91D86E97B0073E94E /* UIColor+LM.m in Sources */,
+				8AD1B1571DB47DB700292626 /* UITabBar+badge.m in Sources */,
+				8A1EFE401DB8CE7800919B2B /* LMHomeFooterView.m in Sources */,
+				8AD1B1441DB46A9000292626 /* LMBaseViewController.m in Sources */,
+				8AD170E51D97C2000019F0C9 /* MBProgressHUD+LM.m in Sources */,
+				8A124D611D9B5AEC00C2925A /* LMNavigationController.m in Sources */,
+				8A62574B1D97CB2E00C7ECCF /* LMTabBarViewController.m in Sources */,
+				8AD1B1581DB47DB700292626 /* LMTabBar.m in Sources */,
+				8A6257741D97D93D00C7ECCF /* UIImage+LM.m in Sources */,
+				8A1EFE3D1DB8CD8000919B2B /* LMHomeHeaderView.m in Sources */,
 				8AB562B01D86D8B70073E94E /* NSString+log.m in Sources */,
 				8AB562B21D86D8B70073E94E /* LMHttpTool.m in Sources */,
 				8AB562AF1D86D8B70073E94E /* NSString+Base64.m in Sources */,
@@ -489,9 +713,12 @@
 		};
 		8AB562831D86D19B0073E94E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395107BD64AA5621AED04AE9 /* Pods-LMLoveFreshBeen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LMLoveFreshBeen/LoveFreshBeen.pch";
 				INFOPLIST_FILE = LMLoveFreshBeen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveFreshBeen.app.LMLoveFreshBeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,9 +727,12 @@
 		};
 		8AB562841D86D19B0073E94E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477FA94CF3E9CDF361A095DD /* Pods-LMLoveFreshBeen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LMLoveFreshBeen/LoveFreshBeen.pch";
 				INFOPLIST_FILE = LMLoveFreshBeen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.loveFreshBeen.app.LMLoveFreshBeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";

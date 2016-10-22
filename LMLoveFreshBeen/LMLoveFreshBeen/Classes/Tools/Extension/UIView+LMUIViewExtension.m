@@ -152,121 +152,22 @@
     return;
 }
 
-///**
-// *  展示进度信息 (带圈圈)
-// *
-// *  @param message 展示信息
-// */
-//+ (void)showStatusString:(NSString *)message{
-//    
-//    [SVProgressHUD showWithStatus:message];
-//    
-//}
-//
-///**
-// *  展示进度信息 (带时间)
-// *
-// *  @param message 展示信息
-// *  @param duration 展示时间
-// */
-//+ (void)showStatusString:(NSString *)message duration:(NSTimeInterval)duration{
-//    
-//    
-//    [UIView showStatusString:message];
-//    
-//    [SVProgressHUD dismissWithDelay:duration];
-//    
-//}
-//
-///**
-// *  展示信息 (不带图片,简单信息展示)
-// *
-// *  @param message 展示信息
-// */
-//+ (void)showMessage:(NSString *)message{
-//    
-////    [SVProgressHUD setInfoImage:nil];
-////    
-////    [SVProgressHUD showInfoWithStatus:message];
-//    
-//    
-//}
-//
-///**
-// *  展示消失
-// */
-//+ (void)dismiss{
-//    
-////    [SVProgressHUD dismiss];
-//    
-//    [MBProgressHUD hideHUD];
-//}
-//
-///**
-// *  展示消失,从指定view
-// */
-//+ (void)dismissFromView:(UIView *)view{
-//    
-//    [MBProgressHUD hideHUDForView:view];
-//}
-//
-//
-///**
-// *  展示警告信息 (有警告图片)
-// *
-// *  @param message 展示信息
-// */
-//+ (void)showInfoMessage:(NSString *)message{
-//    
-//    [SVProgressHUD showInfoWithStatus:message];
-//}
-//
-///**
-// *  成功信息展示
-// *
-// *  @param successMessage 成功信息
-// */
-//+ (void)showSuccessMessage:(NSString *)successMessage{
-//    
-////    [SVProgressHUD setMinimumDismissTimeInterval:kSuccessDurtion];
-////    
-////    [SVProgressHUD showSuccessWithStatus:successMessage];
-//    
-//    [MBProgressHUD showSuccess:successMessage ToView:nil];
-//    
-//}
-//
-///**
-// *  失败信息展示 (默认3秒消失)
-// *
-// *  @param successMessage 失败信息
-// */
-//+ (void)showFailMessage:(NSString *)failMessage{
-//    
-////    [SVProgressHUD setMinimumDismissTimeInterval:kFailDurtion];
-////    
-////    [SVProgressHUD showErrorWithStatus:failMessage];
-//
-//    [MBProgressHUD showError:failMessage ToView:nil];
-//}
 
 
-
-#warning lianyanmin
-
-- (void)cornerRadius:(CGFloat)radius {
+- (void)lm_cornerRadius:(CGFloat)radius {
     self.layer.cornerRadius = radius;
     self.layer.masksToBounds = YES;
     self.layer.drawsAsynchronously = YES;
 }
-- (void)borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor {
+- (void)lm_borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor {
     self.layer.borderWidth = borderWidth;
     self.layer.borderColor = borderColor.CGColor;
     self.layer.masksToBounds = YES;
     self.layer.drawsAsynchronously = YES;
 }
 
-- (void)cornerRadius:(CGFloat)radius rectCorner:(UIRectCorner)rectCorner borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor {
+- (void)lm_cornerRadius:(CGFloat)radius rectCorner:(UIRectCorner)rectCorner borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor {
+    
     UIBezierPath*path = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:rectCorner cornerRadii:CGSizeMake(radius,radius)];
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.path = path.CGPath;
@@ -281,21 +182,5 @@
     }
 }
 
-+ (UILabel *)labelWithFontSize:(CGFloat )fontSize textColor:(UIColor *)textColor {
-    return [self labelWithFont:[UIFont systemFontOfSize:fontSize] textColor:textColor text:nil textAligment:NSTextAlignmentCenter backgroundColor:[UIColor clearColor]];
-}
 
-+ (UILabel *)labelWithFont:(UIFont *)font textColor:(UIColor *)textColor textAligment:(NSTextAlignment)textAligment backgroundColor:(UIColor *)backgroundColor {
-    return [self labelWithFont:font textColor:textColor text:nil textAligment:textAligment backgroundColor:backgroundColor];
-}
-
-+ (UILabel *)labelWithFont:(UIFont *)font textColor:(UIColor *)textColor text:(NSString *)text textAligment:(NSTextAlignment)textAligment backgroundColor:(UIColor *)backgroundColor {
-    UILabel *label = [[UILabel alloc]init];
-    label.font = font;
-    label.textColor = textColor;
-    label.text = text;
-    label.textAlignment = textAligment;
-    label.backgroundColor = backgroundColor;
-    return label;
-}
 @end

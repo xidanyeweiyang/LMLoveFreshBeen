@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <AFNetworking.h>
+#import <MJExtension.h>
 #import "LMPostParaments.h"
 
 typedef enum : NSUInteger {

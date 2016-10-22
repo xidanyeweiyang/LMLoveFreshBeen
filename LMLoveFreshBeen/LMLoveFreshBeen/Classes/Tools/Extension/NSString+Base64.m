@@ -10,31 +10,21 @@
 
 @implementation NSString (Base64)
 
-- (NSString *)base64encode {
+- (NSString *)lm_base64encode {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
     
     return [data base64EncodedStringWithOptions:0];
 }
 
-- (NSString *)base64decode {
+- (NSString *)lm_base64decode {
     NSData *data = [[NSData alloc] initWithBase64EncodedString:self options:0];
     
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
-- (NSString *)basicAuthString {
-    return [@"BASIC " stringByAppendingString:self.base64encode];
+- (NSString *)lm_basicAuthString {
+    return [@"BASIC " stringByAppendingString:self.lm_base64encode];
 }
 
-#warning lianyanmin
-//汉字的拼音
-- (NSString *)pinyin {
-    
-    NSMutableString *mString = [self mutableCopy];
-    CFStringTransform((CFMutableStringRef)mString, NULL, kCFStringTransformToLatin, NO);
-    CFStringTransform((CFMutableStringRef)mString, NULL, kCFStringTransformStripDiacritics, NO);
-    
-    return [mString stringByReplacingOccurrencesOfString:@" " withString:@""];
-}
 
 @end

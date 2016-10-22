@@ -12,12 +12,12 @@
 /**
  返回base64编码的字符串内容
  */
-- (NSString *)base64encode;
+- (NSString *)lm_base64encode;
 
 /**
  返回base64解码的字符串内容
  */
-- (NSString *)base64decode;
+- (NSString *)lm_base64decode;
 
 /**
  返回服务器基本授权字符串
@@ -28,14 +28,8 @@
  [request setValue:[@"admin:123456" basicAuthString] forHTTPHeaderField:@"Authorization"];
  @endcode
  */
-- (NSString *)basicAuthString;
+- (NSString *)lm_basicAuthString;
 
 
-#warning lianyanmin
-/**
- *  汉字的拼写
- *
- *  @return 拼音
- */
-- (NSString *)pinyin;
+
 @end

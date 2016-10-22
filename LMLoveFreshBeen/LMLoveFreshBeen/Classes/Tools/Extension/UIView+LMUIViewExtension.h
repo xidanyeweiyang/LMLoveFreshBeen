@@ -31,67 +31,30 @@
  */
 - (void)removeAllSubviews;
 
-///**
-// *  展示进度信息 (带圈圈)
-// *
-// *  @param message 展示信息
-// */
-//+ (void)showStatusString:(NSString *)message;
-//
-///**
-// *  展示进度信息 (带时间)
-// *
-// *  @param message 展示信息
-// *  @param duration 展示时间
-// */
-//+ (void)showStatusString:(NSString *)message duration:(NSTimeInterval)duration;
-//
-///**
-// *  成功信息展示 (默认一秒消失)
-// *
-// *  @param successMessage 成功信息
-// */
-//+ (void)showSuccessMessage:(NSString *)successMessage;
-//
-//
-///**
-// *  展示信息 (不带圈圈,简单信息展示)
-// *
-// *  @param message 展示信息
-// */
-//+ (void)showMessage:(NSString *)message;
-//
-//
-///**
-// *  展示警告信息 (有警告图片)
-// *
-// *  @param message 展示信息
-// */
-//+ (void)showInfoMessage:(NSString *)message;
-//
-///**
-// *  展示消失
-// */
-//+ (void)dismiss;
-//
-///**
-// *  展示消失,从指定view
-// */
-//+ (void)dismissFromView:(UIView *)view;
-//
-//
-///**
-// *  失败信息展示 (默认3秒消失)
-// *
-// *  @param successMessage 失败信息
-// */
-//+ (void)showFailMessage:(NSString *)failMessage;
+/**
+ *  设圆角
+ *
+ *  @param radius 圆角半径
+ */
+- (void)lm_cornerRadius:(CGFloat)radius;
 
 
-#warning lianyanmin
-+ (UILabel *)labelWithFontSize:(CGFloat )fontSize textColor:(UIColor *)textColor ;
+/**
+ *  设边框
+ *
+ *  @param borderWidth 边框宽
+ *  @param borderColor 变宽颜色
+ */
+- (void)lm_borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;
 
-+ (UILabel *)labelWithFont:(UIFont *)font textColor:(UIColor *)textColor textAligment:(NSTextAlignment)textAligment backgroundColor:(UIColor *)backgroundColor;
+/**
+ *  设自定义圆角
+ *
+ *  @param radius      圆角半径
+ *  @param rectCorner  圆角方向
+ *  @param borderWidth 圆角宽度
+ *  @param borderColor 圆角颜色
+ */
+- (void)lm_cornerRadius:(CGFloat)radius rectCorner:(UIRectCorner)rectCorner borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;
 
-+ (UILabel *)labelWithFont:(UIFont *)font textColor:(UIColor *)textColor text:(NSString *)text textAligment:(NSTextAlignment)textAligment backgroundColor:(UIColor *)backgroundColor;
 @end

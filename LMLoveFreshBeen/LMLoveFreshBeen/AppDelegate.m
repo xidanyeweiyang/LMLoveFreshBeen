@@ -16,7 +16,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
+    
+    self.window.backgroundColor = LMWhiteColor;
+    
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[LMTabBarViewController alloc] init];
+    
     return YES;
 }
 
